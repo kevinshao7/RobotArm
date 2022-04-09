@@ -9,7 +9,7 @@ Code For A Computer Vision and Stereo Vision-Controlled Smart Robotic Arm
  - Hiwonder Xarm 1s robotic arm
  - USB to TTL serial adapter
 # Installation Instructions
-1. Follow the hardware and software setup instructions for the stereo camera [here](https://www.arducam.com/docs/cameras-for-raspberry-pi/synchronized-stereo-camera-hat/opencv-and-depth-map-on-arducam-stereo-camera-hat-tutorial/). The website will walk you through calibration steps. Set up the environment on the Raspberry Pi. Follow the instructions with respect to python package prerequisites. Skip the 5_dm_tune.py stage, and use the camera_params.txt file provided in this repo. 
+1. Follow the hardware and software setup instructions for the stereo camera [here](https://www.arducam.com/docs/cameras-for-raspberry-pi/synchronized-stereo-camera-hat/opencv-and-depth-map-on-arducam-stereo-camera-hat-tutorial/). The website will walk you through calibration steps. Set up the environment on the Raspberry Pi. Follow the instructions with respect to python package prerequisites. At the 5_dm_tune.py stage, calibrate the stereo module to be as stable and noiseless as possible. 
 2. Enter the folder /home/pi/MIPI_Camera/RPI/stereo_depth_demo.
 3. Download the contents of this repo into the specified folder above, specifically:
  - dropball.py
