@@ -15,6 +15,7 @@ Code For A Computer Vision and Stereo Vision-Controlled Smart Robotic Arm
  - dropball.py
  - serial_bus_servo_control.py
  - ssd_mobilenet_v3
+ - frozen_inference_graph.pb
  - coco.names
 4. Plug in the USB to TTL serial adapter into the Raspberry Pi. Connect the ground of the adapter to the corresponding pin on the robotic arm. Connect the transmit pin of the adapter to the receiving pin on the robotic arm.
 5. Run dropball.py.
