@@ -140,7 +140,7 @@ with open(classFile,'rt') as f:
     classNames = f.read().rstrip('\n').split('\n')
 print(classNames)
 configPath = 'yolov4-custom.cfg'
-weightsPath = '2dyolov4-custom_last.weights'
+weightsPath = 'yolov4-custom_7000.weights'
 
 net= cv2.dnn.readNetFromDarknet(configPath,weightsPath)
 model = cv2.dnn_DetectionModel(net)
